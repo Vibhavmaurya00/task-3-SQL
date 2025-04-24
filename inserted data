@@ -1,1 +1,43 @@
+INSERT INTO Customer (CustomerName)
+VALUES
+('Ali'),
+('Bilal'),
+('Kamil'),
+('Saim'),
+('Asad'),
+('Hassan'),
+('Ahmed'),
+('Saad'),
+('Faisal'),
+('Zeeshan'),
+('Rehan');
 
+
+INSERT INTO Address (HouseNo, Street, CustomerID, ZipCodeID, Area)
+VALUES
+('207', 47, 1, 1, 'Baldia Town'),
+('30', 11, 2, 1, 'Bin Qasim Town'),
+('52', 20, 3, 1, 'Bin Qasim Town'),
+('143', 32, 4, 1, 'Gadap Town'),
+('344', 37, 5, 1, 'Gadap Town'),
+('272', 58, 6, 1, 'Gulberg Town'),
+('109', 20, 7, 1, 'Gulberg Town'),
+('86', 58, 8, 1, 'Gulshan Town'),
+('309', 2, 9, 1, 'Gulshan-e-Iqbal Town'),
+('450', 50, 10, 1, 'Jamshed Town'),
+('389', 26, 11, 1, 'Jamshed Town');
+
+
+INSERT INTO Cart (DateCreated, CustomerID)
+VALUES
+('2016-04-30', 1),  -- CustomerID 1 (Ali)
+('2015-05-30', 2),  -- CustomerID 2 (Bilal)
+('2015-05-18', 3),  -- CustomerID 3 (Kamil)
+('2015-12-17', 4),  -- CustomerID 4 (Saim)
+('2014-11-20', 5),  -- CustomerID 5 (Asad)
+('2012-11-22', 6),  -- CustomerID 6 (Hassan)
+('2013-10-23', 7),  -- CustomerID 7 (Ahmed)
+('2015-01-28', 8),  -- CustomerID 8 (Saad)
+('2014-02-25', 9),  -- CustomerID 9 (Faisal)
+('2015-02-08', 10), -- CustomerID 10 (Zeeshan)
+('2017-01-13', 11); -- CustomerID 11 (Rehan)
